@@ -2,7 +2,7 @@ import fotoPerfil from "../assets/fotoPerfil.svg"
 
 export function Siderbar() {
     return (
-        <div className="w-64  h-[500px] bg-white text-black flex-shrink-0">
+        <div className="w-64  h-[500px] bg-white text-black flex-shrink-0 fixed">
             <div className="ms-8">
                 <div className="px-4 py-6">
                     <img src={fotoPerfil} alt="FOTO PERFIL" className="" />
